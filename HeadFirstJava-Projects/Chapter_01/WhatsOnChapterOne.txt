@@ -1,0 +1,11 @@
+# Chapter 1, covers.
+
+The Way Java Works
+What you’ll do in Java
+A Very Brief History of Java
+Code structure in Java
+Writing a class with a main()
+Simple boolean tests
+Conditional branching
+Coding a Serious Business
+Phrase-O-Matic
