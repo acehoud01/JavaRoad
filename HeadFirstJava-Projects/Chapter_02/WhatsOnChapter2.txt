@@ -1,0 +1,13 @@
+A Trip to Objectville
+I was told there would be objects. In Chapter 1, we put all of our code in
+the main() method. That’s not exactly object-oriented. So now we’ve got to leave that
+procedural world behind and start making some objects of our own. We’ll look at what
+makes object-oriented (OO) development in Java so much fun. We’ll look at the difference
+between a class and an object. We’ll look at how objects can improve your life.
+
+Chair Wars
+Making your first object
+Making and testing Movie objects
+Quick! Get out of main!
+Running the Guessing Game
+Exercises
