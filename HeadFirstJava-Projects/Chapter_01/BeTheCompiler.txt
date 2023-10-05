@@ -1,0 +1,88 @@
+*
+Each of the Java files on this page
+represents a complete source file.
+Your job is to play compiler and
+determine whether each of these files
+will compile. If they won’t
+compile, how would you
+fix them?
+...........................................................................
+
+class Exercise1a {
+	public static void main(String[] args) {
+	int x = 1;
+	while (x < 10) {
+		if (x > 3) {
+		System.out.println("big x");
+    		}	
+  	}	   
+     }
+}
+
+**This program will run infinit loop as x is always less than 10, to fix it, we to increase x by one on each loop
+FIXED:
+
+class Exercise1a {
+	public static void main(String[] args) {
+	int x = 1;
+	while (x < 10) {
+		x = x + 1;
+		if (x > 3) {
+		System.out.println("big x");
+		}
+	}	
+     }	
+}
+..............................................................................
+
+public static void main(String [] args) {
+int x = 5;
+while ( x > 1 ) {
+	x = x - 1;
+	if ( x < 3) {
+		System.out.println("small x");
+	}
+     }	
+}
+
+**This program will not compile. A Java program need to have at least one class
+FIXED:
+
+public class Exercise1b {
+	public static void main(String [] args) {
+	int x = 5;
+	while ( x > 1 ) {
+		x = x - 1;
+		if ( x < 3) {
+			System.out.println("small x");
+		}	
+	}
+    }
+ }
+ ................................................................................
+
+class Exercise1c {
+int x = 5;
+while (x > 1) {
+x = x - 1;
+if (x < 3) {
+System.out.println("small x");
+}
+}
+}
+
+**This will not compile. Java needs a main method to run a class
+FIXED:
+
+public class Exercise1c {
+        public static void main(String [] args) {
+        int x = 5;
+        while ( x > 1 ) {
+                x = x - 1;
+                if ( x < 3) {
+                        System.out.println("small x");
+                }
+        }
+    }
+ }
+
