@@ -1,0 +1,8 @@
+Declaring a variable
+“I’d like a double mocha, no, make it an int.”
+Back away from that keyword
+Controlling your Dog object
+An object reference is just another variable value
+Life on the garbage-collectible heap
+An array is like a tray of cups
+A Dog example
