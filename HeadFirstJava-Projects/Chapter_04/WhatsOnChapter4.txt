@@ -1,0 +1,11 @@
+#Remember: a class describes what an object knows and
+what an object does
+The size affects the bark
+You can send things to a method
+You can get things back from a method.
+You can send more than one thing to a method
+Cool things you can do with parameters and return types
+Encapsulation
+How do objects in an array behave?
+Declaring and initializing instance variables
+Comparing variables (primitives or references) #
